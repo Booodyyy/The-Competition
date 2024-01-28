@@ -1,0 +1,30 @@
+@font-face {
+    font-family: cairo;
+    src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 6px;
+    height: 6vh;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 6px;
+    list-style: none;
+    a{
+        text-decoration: none;
+           font-weight: bold;
+           color: black;
+           
+        }
+   
+}
+

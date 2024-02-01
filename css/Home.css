@@ -1,0 +1,59 @@
+/* @font-face {
+    font-family: cairo;
+    src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
+} */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color : #1b262c ;
+    --secondary-color : #0F4C75  ;
+    --third-color : #3282B8  ;
+    --fourth-color :  #BBE1FA  ;
+
+}
+body{
+    background-color: var(--fourth-color);
+    font-family: Cairo;
+}
+                /* ------------------------- */
+                img{
+                    width: 100%;
+                }
+/* header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 6px;
+    height: 6vh;
+    background-color: var();
+} */
+ul{
+    display: flex;
+}
+li{
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+    a{
+        text-decoration: none;
+           font-weight: bold;
+           color: black;
+           
+        }
+        
+   
+}
+.logo{
+    width: 110px;
+}
+.naavbar {
+    padding: 5px 0;
+    justify-content: space-between;
+    display: flex;
+}
+.pos{
+    position: fixed;
+    width: 100%;
+}

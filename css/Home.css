@@ -1,107 +1,275 @@
-/* @font-face {
-    font-family: cairo;
-    src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
-} */
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-:root{
-    --main-color : #1b262c ;
-    --secondary-color : #0F4C75  ;
-    --third-color : #3282B8  ;
-    --fourth-color :  #BBE1FA  ;
+
+:root {
+    --main-color: #1b262c;
+    --secondary-color: #0F4C75;
+    --third-color: #3282B8;
+    --fourth-color: #BBE1FA;
 
 }
-body{
+
+body {
     background-color: var(--fourth-color);
     font-family: Cairo;
 }
-                /* ------------------------- */
-                img{
-                    width: 100%;
-                }
 
-ul{
+        /* nav bar start */
+img {
+    width: 100%;
+}
+
+ul {
     display: flex;
 }
-li{
+
+li {
     padding: 10px;
     list-style: none;
     margin: 10px;
-    a{
+
+    a {
         text-decoration: none;
-           font-weight: bold;
-           color: black;
-           
-        }
+        font-weight: bold;
+        color: black;
+
+    }
 }
-.logo{
-    width: 110px;
+
+.logo {
+    width: 76px;
 }
+
 .naavbar {
     padding: 5px 0;
     justify-content: space-between;
     display: flex;
+    height: 10vh;
 }
-              /* sec one */
+       /* nav bar end */
+
+/* sec one */
 .main-sec-1 {
-/* position: relative;  */
-height: 85vh;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-image: url(../images/depositphotos_13724305-stock-photo-stethoscope-on-clipboard.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../images/Sec-1-img.jpg);
+    background-size: 100% ;
 }
+
 .main-sec-1 div:first-child {
-width: 100%;
-;
+    width: 100%;
+    ;
 }
-.sec-1-p{
-text-align: center;
-padding-top: 40vh;
-padding-left: 23vw;
-left: 50%;
-top: 40%;
-font-size: 28px;
-font-weight: 900;
-font-family: sans-serif;
-color: var(--secondary-color);
+
+.sec-1-p {
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    font-size: 38px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: -3px 3px 2px #000;
 
 }
-/* Sec Tow */
-.hospitals{
-    border: #000000d8 1px solid;
- border-top-color: var(--secondary-color);
-   border-radius: 10px ;
-   padding: 2px;
-   border-top-width: 9px ;
-   H1{
-    color: var(--third-color);
-   }
-   text-align: center;
-   
+
+/* Sec Two */
+.sec-2 {
+    .background-div-3 {
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+
+
+    }
+
+    .background-div-3 img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .latest-sec-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+
+    .news-divs {
+        /* width: 50%; */
+        padding: 35px;
+        background-color: #033252e0;
+        color: #fff;
+        overflow: auto;
+        height: 500px;
+    }
 }
-.Addiction{
-    border: #000000d8 1px solid;
-    border-top-color: var(--secondary-color);
-      border-radius: 10px ;
-     padding-right: 10%;
-      border-top-width: 9px ;
-      H1{
-        color: var(--third-color);
-        padding-left: 95px;
-       }
-       P{
-        padding-left: 140px;
-        
-       }
+
+
+/* Sec Three */
+.sec-3 div {
+    padding: 20px;
+
+    .hospitals,
+    .Addiction {
+        border: #000000be 1.5px solid;
+        border-radius: 11px;
+        border-top-color: var(--secondary-color);
+        border-top-width: 10px;
+        /* width: 40%; */
+
+        h1 {
+            font-size: medium;
+            color: var(--third-color);
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+            font-size: small;
+            text-align: center;
+        }
+    }
+    
+
+    .hospitals p {
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+           /* Sec Four */
+           .best-h1{
+            text-align: center;
+            padding-bottom: 15px;
+            font-size: xx-large;
+    font-weight: 700;
+    font-style: initial;
+           }
+  .sec-4-centers{
+    div{
+        border-radius: 20px;
+        box-shadow: 0px 1px 5px 1px var(--secondary-color);
+        overflow: hidden;
+        width: 31.7%;
+        height: 25%;
+    }
+   padding-bottom: 35px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+h1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: initial;
+}
+  }
+  
+           
+/* Sec Five */
+.main-sec-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: 100% ;
+    background-image: url(../images/sec-5-img.jpg);
+}
+
+.main-sec-5 div:first-child {
+    width: 100%;
+
+}
+
+.sec-5-p {
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    font-size: 38px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: -3px 3px 2px #000;
+
+}
+
+            /* footer start */
+.white-1{
+    width: 100%;
+    height: 26px;
+}
+.sec-c-2{
+    background-color: var(--secondary-color) ;
+    width: 100%;
+    height: 190px;
+    .footer-top{
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+    }
+    .phone-img{
+        width: 4%;
+        position: relative;
+    top: 24px;
+    left: 65px;
+    }
+    .p-number{
+        color: #fff;
+    position: relative;
+    top: 26px;
+    left: 65px;
+    font-size: x-large;
+    font-weight: 900;
+    width: 50px;
+}
+.avail-time{
+    position: relative;
+    top: 24px;
+    left: 39px;
+    color: white;
+}
+    }
+.white-3{
+    width: 100%;
+    height: 30px;
+    p{
+        text-align: center;
+        word-spacing: 1px;
+        span{
+            color: #3282B8;
+        }
+    }
+}
+  /* footer end */
+.social-icons{
+    position: relative;
+    left: 41%;
+    top: 15%;
+    width: 14%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+  img{
+   padding-right: 5px;
+  }
+  .youtube{
+    width: 25px;
+  }
+}
       
-}
-.rowT{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: nowrap;
-
-}
-
